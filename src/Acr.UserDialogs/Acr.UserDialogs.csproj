@@ -61,7 +61,7 @@
     <ItemGroup>
         <Compile Remove="Platforms\**\*.cs" />
         <None Include="Platforms\**\*.cs" />
-        <PackageReference Include="MSBuild.Sdk.Extras" Version="1.5.4" PrivateAssets="all" />
+        <PackageReference Include="MSBuild.Sdk.Extras" Version="1.6.41" PrivateAssets="all" />
     </ItemGroup>
 
     <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
@@ -109,7 +109,7 @@
     </ItemGroup>
 
     <ItemGroup Condition=" '$(TargetFramework)' == 'uap10.0.16299' ">
-        <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.5" />
+        <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
         <PackageReference Include="Coding4Fun.Toolkit.Controls" Version="2.1.8" />
 
         <Compile Include="Platforms\Shared\**\*.cs" />
