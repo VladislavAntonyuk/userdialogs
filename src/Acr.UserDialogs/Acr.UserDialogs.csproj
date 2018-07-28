@@ -95,7 +95,7 @@
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'uap10.0.17134' ">
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.7" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
     <PackageReference Include="Coding4Fun.Toolkit.Controls" Version="2.1.8" />
 
     <Compile Include="Platforms\Shared\**\*.cs" />
